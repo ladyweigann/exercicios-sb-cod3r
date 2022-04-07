@@ -8,4 +8,5 @@ public interface ProdutoRepository extends PagingAndSortingRepository<Produto, I
 	
 	public Iterable<Produto> findByNomeContainingIgnoreCase(String parteNome); //seguir as convenções estabelecidas para o spring implementar
 	
+	//@Query - inclui um comando do db para executar nas requisições
 }
