@@ -6,7 +6,7 @@ Para utilizar, você deverá ter instalada a ferramenta Postman, para realizar a
 
 Além disso, precisa criar um schema no mySQL e alterar de acordo com suas preferências o arquivo src/main/resources/application.properties
 
-Após iniciar o servidor, rode na porta 8080 a seguinte rota: ```http://localhost:8080/api/produtos/```
+Após iniciar o servidor (rode o arquivo ExerciciosSbApplication.java), abra no Postman conforme especificado abaixo: ```http://localhost:8080/api/produtos/```
 
 1. Requisição POST para cadastrar produtos: ```http://localhost:8080/api/produtos/```
 - Deverá passar os parâmetros nome, preco, desconto no body da requisição;
